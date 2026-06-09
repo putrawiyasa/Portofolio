@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nama Anda · UI/UX & Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+  <header id="header">
+    <div class="header-inner">
+      <div class="logo">PutraWiyasa</div>
+      <nav class="nav">
+        <a href="#beranda" class="nav-link active">Beranda</a>
+        <a href="#tentang" class="nav-link">Tentang Saya</a>
+        <a href="#portofolio" class="nav-link">Portofolio</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+      <a href="CV_I Dewa Ketut Putra Wiyasa.pdf" download class="btn-cv">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download CV
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#beranda" class="mobile-link">Beranda</a>
+      <a href="#tentang" class="mobile-link">Tentang Saya</a>
+      <a href="#portofolio" class="mobile-link">Portofolio</a>
+      <a href="#kontak" class="mobile-link">Kontak</a>
+      <a href="CV_I Dewa Ketut Putra Wiyasa.pdf" download class="mobile-link cv-mobile">Download CV</a>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════ BERANDA ══════════════════════════════ -->
+  <section id="beranda" class="section hero-section">
+    <div class="hero-bg-grid"></div>
+    <div class="container hero-container">
+      <div class="hero-content" data-animate>
+        <h1 class="hero-title">
+          Halo, Saya<br>
+          <span class="hero-name">Putra Wiyasa</span>
+        </h1>
+        <div class="hero-roles">
+          <span class="role-tag">UI/UX Designer</span>
+          <span class="role-sep">·</span>
+          <span class="role-tag">Frontend Developer</span>
+        </div>
+        <p class="hero-quote">
+          Saya membantu brand dan bisnis mengembangkan solusi digital yang efektif melalui desain antarmuka yang modern dan pengembangan web yang andal.
+        </p>
+        <div class="hero-socials">
+          <a href="https://www.instagram.com/wiyasaaaa/" class="soc-link" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://github.com/putrawiyasa" class="soc-link" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="mailto:putrawiyasaa01@gmail.com" class="soc-link" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+        <div class="hero-actions">
+          <a href="#portofolio" class="btn-primary">
+            Lihat Portofolio
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#kontak" class="btn-secondary">
+            Hubungi Saya
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo" data-animate data-delay="200">
+        <div class="photo-frame">
+          <div class="photo-inner">
+            <img src="aset/fotosaya.png" alt=""/>
+            <div class="photo-fallback">
+              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>Foto Anda</span>
+            </div>
+          </div>
+          <div class="photo-decoration"></div>
+          <div class="photo-decoration2"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ TENTANG ══════════════════════════════ -->
+  <section id="tentang" class="section about-section">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-label">Tentang Saya</div>
+        <h2 class="section-title">Kenali Saya Lebih Dekat</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-left" data-animate>
+          <div class="about-photo-wrap">
+            <div class="about-img">
+              <img src="aset/fotosaya.png" alt=""/>
+              <div class="about-img-fallback">
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div class="about-img-overlay"></div>
+            </div>
+            <div class="about-photo-deco"></div>
+          </div>
+          <a href="CV_I Dewa Ketut Putra Wiyasa.pdf" download class="btn-cv-about">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
+        </div>
+        <div class="about-right" data-animate data-delay="150">
+          <div class="about-greeting">Halo!</div>
+          <h3 class="about-name">Putra Wiyasa</h3>
+          <p class="about-text">
+            Halo, saya seorang mahasiswa Sistem Informasi di Universitas Primakara yang memiliki minat pada bidang Pengembangan Frontend dan Desain UI/UX. Saya fokus pada pengembangan antarmuka situs web yang responsif, menarik, dan mudah digunakan oleh pengguna. Saya menikmati proses mengubah desain menjadi tampilan web yang interaktif menggunakan HTML, CSS, dan JavaScript, serta terus mempelajari teknologi terbaru untuk meningkatkan kualitas pengembangan web.
+          </p>
+          <p class="about-text">
+            Selain pengembangan frontend, saya juga memiliki ketertarikan pada desain pengalaman pengguna (UI/UX). Melalui berbagai proyek akademik dan pribadi, saya terus mengasah kemampuan dalam membangun solusi digital yang tidak hanya memiliki tampilan yang baik, tetapi juga mampu memberikan pengalaman yang nyaman dan efektif bagi pengguna.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ PORTOFOLIO ═══════════════════════════ -->
+  <section id="portofolio" class="section portfolio-section">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-label">Portofolio</div>
+        <h2 class="section-title">Karya & Keahlian Saya</h2>
+      </div>
+      <div class="port-tabs" data-animate>
+        <button class="port-tab active" data-tab="proyek">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Proyek
+        </button>
+        <button class="port-tab" data-tab="keahlian">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Keahlian
+        </button>
+      </div>
+
+      <div id="tab-proyek" class="tab-content active">
+        <div class="projects-grid">
+
+          <div class="proj-card" data-animate>
+            <div class="proj-thumb thumb-purple">
+              <img src="aset/mockupRR.png"/>
+            </div>
+            <div class="proj-body">
+              <h4 class="proj-name">Landing Page Racik Rasa</h4>
+              <p class="proj-desc">Landing page untuk usaha kuliner Racik Rasa, dengan menggunakan desain modern dan responsif untuk semua perangkat.</p>
+              <div class="proj-chips">
+                <span class="chip">Figma</span>
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">JS</span>
+              </div>
+            </div>
+            <div class="proj-footer">
+              <a href="#" class="proj-link">Lihat Project
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- <div class="proj-card" data-animate data-delay="100">
+            <div class="proj-thumb thumb-blue">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            </div>
+            <div class="proj-body">
+              <h4 class="proj-name">Landing Page Bali Pesona</h4>
+              <p class="proj-desc">Landing page pada usaha rental sound system dan lighting Bali Pesona, dengan menggunakan desain modern dan responsif untuk semua perangkat.</p>
+              <div class="proj-chips">
+                <span class="chip">Figma</span>
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">JavaScript</span>
+              </div>
+            </div>
+            <div class="proj-footer">
+              <a href="#" class="proj-link">Lihat Project
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </div> -->
+
+          <div class="proj-card" data-animate data-delay="200">
+            <div class="proj-thumb thumb-green">
+              <img src="aset/CAPT PLAYSTATION.png"/>
+              <!-- <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg> -->
+            </div>
+            <div class="proj-body">
+              <h4 class="proj-name">Ui Design Admin Capt Playstation</h4>
+              <p class="proj-desc">Perancangan user interface untuk bagian admin pada PS CAPT</p>
+              <div class="proj-chips">
+                <span class="chip">Figma</span>
+              </div>
+            </div>
+            <div class="proj-footer">
+              <a href="#" class="proj-link">Lihat Project
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab-keahlian" class="tab-content">
+        <div class="skills-grid">
+
+          <div class="skill-card" data-animate>
+            <div class="skill-icon-wrap sk-orange">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path d="M0 0h32v32H0z" fill="none" /><path fill="#e65100" d="m4 4l2 22l10 2l10-2l2-22Zm19.72 7H11.28l.29 3h11.86l-.802 9.335L15.99 25l-6.635-1.646L8.93 19h3.02l.19 2l3.86.77l3.84-.77l.29-4H8.84L8 8h16Z" /></svg>
+            </div>
+            <div class="skill-name">HTML</div>
+          </div>
+
+          <div class="skill-card" data-animate data-delay="80">
+            <div class="skill-icon-wrap sk-blue">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 128 128"><path d="M0 0h128v128H0z" fill="none" /><path fill="#1572b6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754l-45.243 12.543z" /><path fill="#33a9dc" d="m64.001 117.062l36.559-10.136l8.601-96.354h-45.16z" /><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711l-3.4 38.114h-30.95z" /><path fill="#ebebeb" d="m64.083 87.349l-.061.018l-15.403-4.159l-.985-11.031H33.752l1.937 21.717l28.331 7.863l.063-.018z" /><path fill="#fff" d="m81.127 64.675l-1.666 18.522l-15.426 4.164v14.39l28.354-7.858l.208-2.337l2.406-26.881z" /><path fill="#ebebeb" d="M64.048 23.435v13.831H30.64l-.277-3.108l-.63-7.012l-.331-3.711zm-.047 27.996v13.831H48.792l-.277-3.108l-.631-7.012l-.33-3.711z" /></svg>
+            </div>
+            <div class="skill-name">CSS</div>
+          </div>
+
+          <div class="skill-card" data-animate data-delay="160">
+            <div class="skill-icon-wrap sk-yellow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path d="M0 0h32v32H0z" fill="none" /><path fill="#f5de19" d="M2 2h28v28H2z" /><path d="M20.809 23.875a2.87 2.87 0 0 0 2.6 1.6c1.09 0 1.787-.545 1.787-1.3c0-.9-.716-1.222-1.916-1.747l-.658-.282c-1.9-.809-3.16-1.822-3.16-3.964c0-1.973 1.5-3.476 3.853-3.476a3.89 3.89 0 0 1 3.742 2.107L25 18.128A1.79 1.79 0 0 0 23.311 17a1.145 1.145 0 0 0-1.259 1.128c0 .789.489 1.109 1.618 1.6l.658.282c2.236.959 3.5 1.936 3.5 4.133c0 2.369-1.861 3.667-4.36 3.667a5.06 5.06 0 0 1-4.795-2.691Zm-9.295.228c.413.733.789 1.353 1.693 1.353c.864 0 1.41-.338 1.41-1.653v-8.947h2.631v8.982c0 2.724-1.6 3.964-3.929 3.964a4.085 4.085 0 0 1-3.947-2.4Z" /></svg>
+            </div>
+            <div class="skill-name">JavaScript</div>
+          </div>
+
+          <div class="skill-card" data-animate data-delay="240">
+            <div class="skill-icon-wrap sk-purple">
+             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256"><path d="M0 0h256v256H0z" fill="none" /><g fill="none"><rect width="256" height="256" fill="#242938" rx="60" /><g clip-path="url(#SVGXwgIudex)"><path fill="#0acf83" d="M94.347 228c18.4 0 33.333-14.933 33.333-33.333v-33.334H94.347c-18.4 0-33.334 14.934-33.334 33.334S75.947 228 94.347 228" /><path fill="#a259ff" d="M61.013 128c0-18.4 14.934-33.333 33.334-33.333h33.333v66.666H94.347c-18.4 0-33.334-14.933-33.334-33.333" /><path fill="#f24e1e" d="M61.013 61.333C61.013 42.933 75.947 28 94.347 28h33.333v66.667H94.347c-18.4 0-33.334-14.934-33.334-33.334" /><path fill="#ff7262" d="M127.68 28h33.333c18.4 0 33.334 14.933 33.334 33.333s-14.934 33.334-33.334 33.334H127.68z" /><path fill="#1abcfe" d="M194.347 128c0 18.4-14.934 33.333-33.334 33.333S127.68 146.4 127.68 128s14.933-33.333 33.333-33.333S194.347 109.6 194.347 128" /></g><defs><clipPath id="SVGXwgIudex"><path fill="#fff" d="M61 28h133.36v200H61z" /></clipPath></defs></g></svg></div><div class="skill-name">Figma</div></div><div class="skill-card" data-animate data-delay="320"><div class="skill-icon-wrap sk-teal"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 128 128"><path d="M0 0h128v128H0z" fill="none" /><g fill="#00c4cc"><path d="M59.39.152c-.484.051-1.995.23-3.328.387c-5.374.613-11.468 2.227-16.816 4.48C19.891 13.106 5.324 30.849 1.305 51.2C.359 56.04.129 58.418.129 64c0 7.195.715 12.16 2.61 18.434c6.195 20.53 22.323 36.632 42.906 42.851c6.195 1.871 11.187 2.586 18.355 2.586c7.195 0 12.16-.715 18.434-2.61c20.53-6.195 36.632-22.323 42.851-42.906c1.871-6.195 2.586-11.187 2.586-18.355c0-3.047-.152-6.527-.332-7.809c-2.074-14.796-8.168-27.238-18.328-37.402C99.07 8.703 86.68 2.586 72.19.512c-1.996-.282-11.238-.54-12.8-.36m-20.863 40.32c1.36.41 1.996.794 2.918 1.715c1.793 1.82 2.203 2.817 2.203 5.555c0 2.051-.078 2.434-.691 3.508c-1.18 1.996-3.918 3.84-5.812 3.89c-1.333.028-1.278-.562.18-2.097c1.945-2.023 2.226-2.79 2.226-5.813c-.024-2.917-.383-3.914-1.739-4.734c-1.128-.691-2.355-.64-4.148.203c-4.66 2.23-9.703 9.653-11.672 17.258c-2.613 10.137 2.02 18.25 9.649 16.867c2.226-.41 6.425-2.558 8.246-4.25c1.508-1.379 1.508-1.406 1.66-3.12c.336-3.587 2.867-7.169 6.25-8.833c1.558-.77 1.945-.844 4.043-.844c1.996 0 2.457.102 3.43.637c3.097 1.77 2.457 5.89-.895 5.89c-1.945 0-2.945-1-1.535-1.534c1.383-.512.867-2.434-.742-2.868c-1.895-.488-4.047.793-5.403 3.25c-1.64 2.97-1.715 6.504-.156 8.114c1.512 1.613 3.406.336 4.867-3.329c.766-1.867 1.867-2.867 3.149-2.867c1.125 0 1.332.692.843 2.793c-.718 3.25-.23 4.094 1.793 3.098c.664-.309 1.766-1.023 2.43-1.535l1.254-1l.848-4.43c.922-4.965 1.277-5.633 3.172-5.988c1.82-.336 2.23.562 1.562 3.402l-.36 1.59l1.333-1.36c3.148-3.226 7.015-4.812 8.347-3.48c.715.715.637 1.613-.386 4.785c-.485 1.512-1.153 3.895-1.457 5.25c-.461 2.047-.489 2.535-.23 2.868c.82.972 3.327-.028 5.554-2.204l1.305-1.277l.156-2.844c.152-3.277.457-4.453 1.328-5.504c.82-.972 2.305-1.687 3.098-1.484c.793.207.793.973.078 3.227c-1 3.097-.895 10.238.129 10.238c.41 0 2.507-2.2 3.84-4.043l.996-1.36l-.793-.816c-1.383-1.46-1.715-2.406-1.715-4.789c0-1.738.129-2.379.562-3.227c.719-1.328 1.844-2.3 3.176-2.687c1.406-.434 3.148.281 3.863 1.562c.719 1.305.54 4.223-.383 6.223l-.664 1.457h.895c1.23 0 1.715-.305 3.918-2.379c1.152-1.101 2.484-2.05 3.48-2.511c3.918-1.84 8.528-.895 9.293 1.921c.64 2.254-.765 3.84-3.226 3.66c-1.766-.128-2.098-.59-1.074-1.456c1.843-1.54 0-3.508-2.637-2.793c-1.434.386-3.047 1.996-3.89 3.867c-1.692 3.738-.794 8.14 1.636 8.14c.973 0 2.691-1.921 3.355-3.789c.793-2.152 2.457-3.507 3.711-3.02c.692.255.743.946.309 3.122c-.488 2.383-.563 4.61-.18 5.633c.153.382.614 1.101 1.051 1.586c.816.921.844 1.254.152 1.691c-.332.23-.77.129-1.843-.46c-1.485-.77-2.766-2.153-3.227-3.458l-.281-.766l-1.024.766c-.59.41-1.511.871-2.047 1.023c-2.125.563-4.738-.894-5.964-3.351c-.489-.95-.641-3.738-.282-4.813c.204-.59.204-.59-.617-.18c-.433.231-1.355.485-2.07.563c-1.18.13-1.36.258-2.535 1.742c-1.664 2.07-4.61 4.864-5.813 5.454c-2.558 1.277-3.402.918-4.07-1.72l-.461-1.765l-1.102.973c-1.406 1.23-4.222 2.715-5.836 3.074c-1.535.332-3.175-.156-3.84-1.18c-.995-1.535-.663-4.785.922-9.164c1.176-3.25.333-3.3-2.636-.203c-2.203 2.328-3.149 3.992-3.762 6.578c-.64 2.688-1.41 3.66-3.148 4.07c-1.051.231-1.54-.41-1.332-1.816l.152-1.129l-.973.668c-1.383.946-3.125 1.817-4.328 2.149s-2.789-.024-3.172-.692c-.691-1.175-.691-1.175-1.765-.332c-2.332 1.895-5.66 1.356-7.348-1.152l-.54-.793l-1.687 1.562c-4.867 4.454-10.957 6.45-15.464 5.067c-5.735-1.738-8.907-6.656-8.856-13.746c.024-7.117 3.172-14.617 8.473-20.172c2.996-3.125 5.812-4.969 8.68-5.66c2.07-.512 3.328-.485 5.296.129zm0 0" /><path d="M90.418 58.676c-.563.562-.356 2.816.36 4.25c.359.742.742 1.332.87 1.332c.102 0 .332-.59.512-1.309c.64-2.66-.512-5.504-1.742-4.273m0 0" /></g></svg>
+
+            </div>
+            <div class="skill-name">Canva</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ═══════════════════════════════ KONTAK ═══════════════════════════════ -->
+<section id="kontak" class="section contact-section">
+  <div class="container">
+    <div class="section-header" data-animate>
+      <div class="section-label">Kontak</div>
+      <h2 class="section-title">Mari Berkolaborasi</h2>
+      <p class="section-sub">Terbuka untuk project freelance, kolaborasi, atau diskusi seputar UI/UX dan web development.</p>
+    </div>
+    <div class="social-grid" data-animate>
+
+      <a href="https://www.instagram.com/wiyasaaaa/" target="_blank" class="social-card" data-animate>
+        <div class="social-icon-wrap" style="background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); color:#fff;">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </div>
+        <div class="social-name">Instagram</div>
+        <div class="social-handle">@wiyasaaaa</div>
+      </a>
+
+      <a href="mailto:putrawiyasaa01@gmail.com" class="social-card" data-animate data-delay="80">
+        <div class="social-icon-wrap" style="background: #1a1a2e; color: #a78bfa; border: 1px solid rgba(124,58,237,0.3);">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </div>
+        <div class="social-name">Email</div>
+        <div class="social-handle">putrawiyasaa01@gmail.com</div>
+      </a>
+
+      <a href="https://github.com/putrawiyasa" target="_blank" class="social-card" data-animate data-delay="160">
+        <div class="social-icon-wrap" style="background: #161b22; color: #e6edf3; border: 1px solid rgba(255,255,255,0.1);">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+          </svg>
+        </div>
+        <div class="social-name">GitHub</div>
+        <div class="social-handle">github.com/putrawiyasa</div>
+      </a> 
+
+      <a href="https://wa.me/6289630317404" target="_blank" class="social-card" data-animate data-delay="240">
+        <div class="social-icon-wrap" style="background: #0ac238; color: #fff;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23 -1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28" />
+          </svg>
+        </div>
+        <div class="social-name">WhatsApp</div>
+        <div class="social-handle">+6289630317404</div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="logo">PutraWiyasa</div>
+        <p class="footer-tagline">UI/UX Designer & Frontend Developer</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <div class="footer-copy">
+        <p>Putra Wiyasa © 2026 · All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#beranda" class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
