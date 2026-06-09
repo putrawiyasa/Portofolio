@@ -1,9 +1,3 @@
-/* ══════════════════════════════════════════════════════════════
-   PORTFOLIO — DARK MODE
-   Font: Syne (display) + DM Sans (body)
-   Accent: Violet #7c3aed
-══════════════════════════════════════════════════════════════ */
-
 :root {
   --bg: #0d1117;
   --bg-2: #0a0d14;
@@ -49,7 +43,6 @@ a { text-decoration: none; }
   padding: 0 2rem;
 }
 
-/* ── HEADER ─────────────────────────────────────────────────── */
 #header {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -122,7 +115,6 @@ a { text-decoration: none; }
 .mobile-link:hover { color: var(--accent-light); background: var(--accent-dim); }
 .cv-mobile { color: var(--accent-light); margin-top: 6px; }
 
-/* ── SECTIONS ────────────────────────────────────────────────── */
 .section { padding: 100px 0; }
 .section-header { text-align: center; margin-bottom: 3.5rem; }
 .section-label {
@@ -142,7 +134,6 @@ a { text-decoration: none; }
 }
 .section-sub { color: var(--text-2); margin-top: 10px; max-width: 500px; margin-left: auto; margin-right: auto; font-size: 14px; }
 
-/* ── HERO ────────────────────────────────────────────────────── */
 .hero-section {
   min-height: 100vh;
   display: flex;
@@ -252,7 +243,6 @@ a { text-decoration: none; }
 }
 .btn-secondary:hover { background: var(--accent-dim); border-color: var(--accent-light); transform: translateY(-1px); }
 
-/* Hero photo */
 .hero-photo { display: flex; justify-content: center; }
 .photo-frame { position: relative; width: 340px; }
 .photo-inner {
@@ -332,7 +322,6 @@ a { text-decoration: none; }
   100% { transform: scaleY(0); transform-origin: bottom; }
 }
 
-/* ── TENTANG ─────────────────────────────────────────────────── */
 .about-section { background: var(--bg-2); }
 .about-grid {
   display: grid;
@@ -414,7 +403,6 @@ a { text-decoration: none; }
 .astat-label { font-size: 11px; color: var(--text-3); }
 .astat-divider { width: 1px; height: 36px; background: var(--border); }
 
-/* ── PORTOFOLIO ──────────────────────────────────────────────── */
 .portfolio-section { background: var(--bg); }
 .port-tabs {
   display: flex;
@@ -543,7 +531,6 @@ a { text-decoration: none; }
 .skill-fill.animated { transform: scaleX(1); }
 .skill-pct { font-size: 12px; font-weight: 600; color: var(--accent-light); min-width: 36px; text-align: right; }
 
-/* ── KONTAK ──────────────────────────────────────────────────── */
 .contact-section { background: var(--bg-2); }
 .contact-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 3rem; align-items: start; }
 .cinfo-item { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 1.25rem; }
@@ -610,7 +597,6 @@ a.cinfo-val:hover { color: var(--accent-light); }
 .form-msg.success { background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.3); color: #34d399; display: block; }
 .form-msg.error { background: rgba(248,113,113,0.1); border: 1px solid rgba(248,113,113,0.3); color: #f87171; display: block; }
 
-/* ── FOOTER ──────────────────────────────────────────────────── */
 .footer {
   background: var(--bg);
   border-top: 1px solid var(--border);
@@ -629,7 +615,6 @@ a.cinfo-val:hover { color: var(--accent-light); }
 .footer-copy { text-align: right; }
 .footer-copy p { font-size: 11px; color: var(--text-3); line-height: 1.6; }
 
-/* ── BACK TO TOP ─────────────────────────────────────────────── */
 .back-to-top {
   position: fixed;
   bottom: 2rem; right: 2rem;
@@ -648,7 +633,6 @@ a.cinfo-val:hover { color: var(--accent-light); }
 .back-to-top.visible { opacity: 1; pointer-events: all; transform: translateY(0); }
 .back-to-top:hover { background: #6d28d9; }
 
-/* ── ANIMATE ON SCROLL ───────────────────────────────────────── */
 [data-animate] { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
 [data-animate].in-view { opacity: 1; transform: translateY(0); }
 
@@ -687,7 +671,6 @@ a.cinfo-val:hover { color: var(--accent-light); }
 }
 .social-handle { font-size: 10px; color: var(--text-3); word-break: break-all; }
 
-/* ── RESPONSIVE ──────────────────────────────────────────────── */
 @media (max-width: 900px) {
   .hero-container { grid-template-columns: 1fr; text-align: center; }
   .hero-photo { order: -1; }
